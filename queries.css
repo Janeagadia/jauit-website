@@ -1,0 +1,246 @@
+/* @ 1120px */
+@media (max-width: 70em) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+  }
+  .hero-image {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+    padding: 5em 4em;
+  }
+  .text2 {
+    margin-top: 1em;
+  }
+  .heading2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  .courses-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+  }
+}
+
+/* @ 890px */
+@media (max-width: 55em) {
+  .description {
+    gap: 4em;
+    padding: 4em 4em;
+  }
+  .heading2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+
+  .courses-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .works-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  .nav-elements {
+    display: none;
+  }
+  .menu-icon {
+    visibility: visible;
+  }
+  ion-icon {
+    font-size: 4rem;
+  }
+}
+
+/* @840PX */
+@media (max-width: 53em) {
+  html {
+    font-size: 60%;
+  }
+  .heading2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+  .footer-text {
+    font-size: 3rem;
+  }
+  .footer2 {
+    margin: 1rem 10rem;
+    padding: 2rem 10rem;
+  }
+}
+
+/* @740px */
+@media (max-width: 46em) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* @600px */
+@media (max-width: 38em) {
+  h1 {
+    font-size: 4rem;
+  }
+  .hero-image img {
+    width: 80%;
+  }
+
+  .footer1 {
+    margin: 4rem 8rem;
+  }
+  .footer-text {
+    font-size: 1.8rem;
+  }
+  .footer2 {
+    margin: 1rem 6rem;
+    padding: 2rem 8rem;
+  }
+  .box {
+    padding: 2rem 3rem;
+  }
+}
+
+/* @530px  */
+@media (max-width: 38em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* @470px  */
+@media (max-width: 30em) {
+  header {
+    padding: 0.5rem 2rem;
+  }
+  header img {
+    width: 10rem;
+  }
+  ion-icon {
+    font-size: 3rem;
+  }
+  .hero-section {
+    padding: 5rem 2rem;
+  }
+  .description {
+    gap: 7rem;
+    padding: 7rem 2rem;
+  }
+  .courses {
+    padding-bottom: 4rem;
+  }
+  .container {
+    padding: 4rem 1rem;
+    padding-bottom: 8rem;
+  }
+  .footer1 {
+    margin: 4rem 8rem;
+    border-radius: none;
+  }
+  .footer2 img {
+    width: 8rem;
+  }
+  .footer2 {
+    margin: 1rem 6rem;
+    padding: 2rem 6rem;
+  }
+  .footer-text {
+    padding-top: 5rem;
+    font-size: 2rem;
+  }
+  .box {
+    padding: 2rem 3rem;
+  }
+  .hero-btn {
+    padding: 1rem 4rem;
+  }
+  .footer-btn {
+    padding-bottom: 3rem;
+  }
+  .works-btn {
+    margin-top: 2rem;
+  }
+}
+
+/* * @440px  */
+@media (max-width: 27em) {
+  html {
+    font-size: 53%;
+  }
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .container {
+    padding: 2rem 1rem;
+    border-radius: 0.2rem;
+    padding-bottom: 4rem;
+  }
+  .jauit-icon img {
+    height: 9rem;
+  }
+  .logos img {
+    width: 14rem;
+  }
+  .sponsors {
+    padding: 4rem 1rem;
+  }
+  .how-it-works {
+    padding: 6rem 0rem;
+  }
+  .works-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background-color: #fff;
+  }
+  .box:nth-child(1) {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .box:nth-child(3) {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .number {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+}
+
+/* 330px */
+@media (max-width: 21em) {
+  html {
+    font-size: 50%;
+  }
+  .footer2 {
+    margin: 1rem 4rem;
+    padding: 2rem 4rem;
+  }
+}
+
+/* 309px */
+@media (max-width: 19em) {
+  html {
+    font-size: 46%;
+  }
+}
